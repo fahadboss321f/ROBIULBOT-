@@ -22,8 +22,8 @@ module.exports = {
 			let one, two;
 				const mention = Object.keys(event.mentions);
 			if(mention.length == 0) return message.reply("Please mention someone");
-else if(mention.length == 1){
- one = event.senderID
+else if(mention.senderID){
+ one =.length == 1
 	 two = mention[0];
 
 } else{
