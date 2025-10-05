@@ -47,7 +47,7 @@ onReply: async function({ api, event, Reply, getLang, commandName, prefix }) {
         const index = body.split(/\s+/);
         for (const ArYanIndex of index) {
             if (isNaN(ArYanIndex) || ArYanIndex <= 0 || ArYanIndex > Reply.pending.length) return api.sendMessage(getLang("invaildNumber", ArYanIndex), threadID, messageID);
-            api.sendMessage(`চলে এসেছি আমি পিচ্চি রবিউল তোমাদের মাঝে 🙈🫣`, Reply.pending[ArYanIndex - 1].threadID);
+            api.sendMessage(`চলে এসেছি আমি পিচ্চি ফাহাদ তোমাদের মাঝে 🙈🫣`, Reply.pending[ArYanIndex - 1].threadID);
             count+=1;
         }
         return api.sendMessage(getLang("approveSuccess", count), threadID, messageID);
