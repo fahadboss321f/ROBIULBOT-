@@ -1,4 +1,4 @@
-<img src="https://i.imgur.com/qwV8dMn.jpeg" alt="banner">
+<img src="https://i.imgur.com/nm0D2yK.jpeg" alt="banner">
 <h1 align="center"><img src="./dashboard/images/logo-non-bg.png" width="22px">🇷 🇴 🇧 🇮 🇺 🇱  🇮 🇸 🇱 🇦 🇲  🇲 🇪 🇸 🇸 🇦 🇬 🇪 🇸  🇧 🇴 🇹</h1>
 <!-- Github README -->
 
